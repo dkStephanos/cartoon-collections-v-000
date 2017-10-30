@@ -15,8 +15,13 @@ def summon_captain_planet(planateers)
   formatted_planateers
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  split_array = array.split()
+
+  if(split_array.length > 4)
+    return true
+  end
+  return false
 end
 
 def find_the_cheese# code an argument here

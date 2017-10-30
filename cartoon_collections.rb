@@ -32,7 +32,7 @@ def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   ingredients.map { |ingredient|
-      if cheese_types.include(ingredient)
+      if cheese_types.include?(ingredient)
         return ingredient
       end
   }

@@ -10,7 +10,7 @@ def summon_captain_planet(planateers)
   planateers.map { |planeteer|
     formatted_planateers << planateer.capitalize + "!"
   }
-  #formatted_planateers
+  formatted_planateers
 end
 
 def long_planeteer_calls# code an argument here

@@ -19,7 +19,7 @@ def long_planeteer_calls(array)
   counter = 0
 
   while counter < array.length
-    if(array[counter].split().length > 4)
+    if(array[counter].length > 4)
       return true
     end
     counter += 1

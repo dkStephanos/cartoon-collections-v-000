@@ -6,13 +6,11 @@ end
 
 def summon_captain_planet(planateers)
   formatted_planateers = []
-  counter = 0
 
-  while counter < planateers.length {
-    formatted_planateers << planateers[counter].capitalize + "!"
-    counter += 1
+  planateers.map { |planeteer|
+    formatted_planateers << planateer.capitalize + "!"
   }
-  formatted_planateers
+  #formatted_planateers
 end
 
 def long_planeteer_calls# code an argument here

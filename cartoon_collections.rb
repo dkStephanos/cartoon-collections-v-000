@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planateers)
   formatted_planateers = []
 
-  planateers.collect { |planeteer|
+  planateers.collect {
     formatted_planateers << planateer.capitalize + "!"
   }
   formatted_planateers

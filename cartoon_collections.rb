@@ -27,7 +27,14 @@ def long_planeteer_calls(array)
   return false
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(ingredients)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+
+  ingredients.map { |ingredient|
+      if cheese_types.include(ingredient)
+        return ingredient
+      end
+  }
+  nil
 end

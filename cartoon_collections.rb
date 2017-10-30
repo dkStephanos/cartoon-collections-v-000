@@ -11,7 +11,7 @@ def summon_captain_planet(planateers)
   while counter < planateers.length {
     formatted_planateers << planateers[counter].capitalize + "!"
   }
-
+  formatted_planateers
 end
 
 def long_planeteer_calls# code an argument here

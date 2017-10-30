@@ -16,11 +16,15 @@ def summon_captain_planet(planateers)
 end
 
 def long_planeteer_calls(array)
-  split_array = array.split()
+  counter = 0
 
-  if(split_array.length > 4)
-    return true
+  while counter < array.length
+    if(array[counter].split() > 4)
+      return true
+    end
+    counter += 1
   end
+
   return false
 end
 
